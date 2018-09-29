@@ -5,11 +5,11 @@ import java.util.Vector;
 public class Exercise2 {
 
     /**
-     * Find objects that are in either of the two argument Vectors
+     * Vector union operation
      *
      *  @param a first vector
      *  @param b second vector
-     *  @return objects present in both vectors
+     *  @return objects that are in either one of the two argument vectors
      */
     public static Vector union (Vector a, Vector b)
     {
