@@ -42,7 +42,7 @@ public class Exercise2Test
 
         Vector l_vectorB = null;
 
-        assertThrows(InputMismatchException.class, () -> Exercise2.union(l_vectorA,l_vectorB));
+        assertThrows(IllegalArgumentException.class, () -> Exercise2.union(l_vectorA,l_vectorB));
     }
 
     //AMBIGUETAT 2: No s'haurien de permetre repetits
